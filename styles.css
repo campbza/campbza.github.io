@@ -1,60 +1,72 @@
-body {
-    font-family: 'Noto Sans', sans-serif;
-}
-/* Inset, by Dan Eden; modified somewhat*/
-hr {
-      width:100%;
-      margin-bottom:0%;
-      border: 0;
-      height: 0;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+#wrapper{
+	width:900px;
 }
 
-
-title {
-      text-align:center;
-      margin-top:15%;
-      font-size:20px;
-      font-family: 'Noto Sans', sans-serif;
+#corner{
+	width:270px;
+	float:left;
 }
 
-.subtitle {
-      text-align:center;
-      margin-bottom:0%;
-      font-size:12px;
+#nav{
+	width:270px;
+	text-align:right;
 }
 
-.work {
-	background:white;
-	color:black;
+#maincontent{
+	width:630px;
+	float:left;
 }
 
-.play {
-	background:black;
-	color:white;
+img{
+	border-style:solid;
+	border-color: #5E0501;
+	border-width:10px;
 }
 
-.menu {
-        margin-top:4%;
-
+h1,h2,h3,h4{
+	font-variant:small-caps;
+	font-family: Trebuchet, Arial, sans-serif;
+	color: #5E0501;
 }
 
-.attribution {
-	margin-top:1%;
-	font-size:12px;
+#text h4{
+	margin-bottom:-8px;
 }
 
-footer{
-	text-align:center;
-	margin-top:20%;
-  font: 400 15px/1.5 "Noto Sans", sans-serif;
+#header{
+	padding: 0px 0px 10px 30px;
+	width:630px;
+	border-color:#5E0501;
+	border-style:solid;
+	border-width: 0px 0px 10px 0px;
 }
 
-a {
-	text-decoration: none;
-        color: #00CED1;
+#header p{
+	font-family:Trebuchet, Arial, sans-serif;
+	color: #5E0501;
+	margin-top:-15px;
+	font-weight:bold;
 }
-a:hover {
-    background-color: #F0F8FF;
+
+#text{
+	margin-top:20px;
+	padding-left:30px;
+}
+
+a,a:visited{
+	color: #5E0501;
+	text-decoration:none;	
+}
+a:hover{
+	text-decoration:underline;
+}
+
+#text a, #text a:hover, #text a:visited{
+	color: #A80E16;
+	color: #5E0501;
+	text-decoration:underline;
+}
+
+#text ul{
+	margin-top:-12px;
 }
