@@ -106,13 +106,13 @@ border:1px solid rgba(0,0,0,0.3);
 display: block;
 margin-left: auto;
 margin-right: auto;
-width:40%;
+width:50%;
 /*-webkit-transition:width 0.2s,height 0.4s;
 transition:width 0.2s,height 0.4s*/
 }
 
 main img:hover{
-width:60%;
+width:70%;
 border-color:#1A9485;
 -webkit-transition:width 0.2s,height 0.4s;
 transition:width 0.2s,height 0.4s
