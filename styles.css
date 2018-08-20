@@ -103,10 +103,11 @@ padding-bottom:70px
 main img{
 padding:20px;
 border:1px solid rgba(0,0,0,0.3);
+display: block;
 margin-left: auto;
 margin-right: auto;
-/*width:40%;
--webkit-transition:width 0.2s,height 0.4s;
+width:40%;
+/*-webkit-transition:width 0.2s,height 0.4s;
 transition:width 0.2s,height 0.4s*/
 }
 
