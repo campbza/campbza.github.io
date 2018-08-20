@@ -52,7 +52,7 @@ font-size:110%;
 font-weight:bold;
 margin-left:5px;
 text-decoration:none;
-text-transform:uppercase
+/*text-transform:uppercase*/
 }
 
 footer{
@@ -103,9 +103,11 @@ padding-bottom:70px
 main img{
 padding:20px;
 border:1px solid rgba(0,0,0,0.3);
-width:40%;
+margin-left: auto;
+margin-right: auto;
+/*width:40%;
 -webkit-transition:width 0.2s,height 0.4s;
-transition:width 0.2s,height 0.4s
+transition:width 0.2s,height 0.4s*/
 }
 
 main img:hover{
@@ -120,11 +122,11 @@ main img:hover:after{
 transition:width 0.2s,height 0.4s
 }
 
-main a,main a:visited{
+/*main a,main a:visited{
 color:#1EAEDB;
 cursor:pointer
-}
+}*/
 
-main a:hover,main a:focus{
+/*main a:hover,main a:focus{
 color:#96838E
-}
+}*/
